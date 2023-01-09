@@ -1,5 +1,4 @@
 import React from 'react';
-import { Notification } from 'components/Notification/Notification';
 import PropTypes from 'prop-types';
 
 const Statistics = ({
