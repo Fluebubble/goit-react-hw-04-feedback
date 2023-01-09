@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Fluebubble/goit-react-hw-04-feedback/static/css/main.7acaea2f.css",
+    "main.js": "/Fluebubble/goit-react-hw-04-feedback/static/js/main.1ad83a84.js",
+    "index.html": "/Fluebubble/goit-react-hw-04-feedback/index.html",
+    "main.7acaea2f.css.map": "/Fluebubble/goit-react-hw-04-feedback/static/css/main.7acaea2f.css.map",
+    "main.1ad83a84.js.map": "/Fluebubble/goit-react-hw-04-feedback/static/js/main.1ad83a84.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.1ad83a84.js"
+  ]
+}
