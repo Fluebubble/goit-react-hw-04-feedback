@@ -21,7 +21,10 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     <ButtonBox>
       {options.map(option => {
         return (
-          <Button key={option} onClick={() => onLeaveFeedback(option)}>
+          <Button
+            key={option}
+            onClick={() => onLeaveFeedback({ type: option })}
+          >
             {option}
           </Button>
         );
@@ -31,7 +34,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
 };
 
 FeedbackOptions.propTypes = {
-  options: PropTypes.arrayOf(PropTypes.number).isRequired,
+  options: PropTypes.arrayOf(PropTypes.string).isRequired,
   onLeaveFeedback: PropTypes.func.isRequired,
 };
 
